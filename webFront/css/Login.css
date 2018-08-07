@@ -14,9 +14,13 @@ html, body {
     display: flex;
     padding: 30px 15%;
     justify-content: flex-end;
-    color: #848484;
     font-weight: 800;
     font-family: "맑은 고딕";
+}
+
+#login-nav a{
+    color: #848484;
+    text-decoration: none;
 }
 
 #login-logo{
@@ -26,5 +30,5 @@ html, body {
 }
 
 #login-nav>span {
-    margin-right: 25px;
+    margin-right: 50px;
 }
