@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>학급생성</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href=".\css\createClass.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href=".\css\header.css" />
+</head>
+<body>
+    <div class="head">
+        <div>
+            <nav id="login-nav">
+                <img id="login-logo" src="" alt="">
+                    <span><a href="Login.html">로그인</a></span>
+                    <span><a href="Join.html">회원가입</a></span>
+                    <span><a href="createClass.html">학급생성</a></span>
+            </nav>
+        </div>
+    </div>
+    <div style="overflow:auto">
+        <div id="blank"></div>
+        <div id="section">
+            <h2 id="bottomline">학급생성</h2>
+            <h3>학급정보</h3>
+            <form action="docu.php" id="classSetting">
+            <table>
+                <tbody>
+                    <tr>
+                        <td id="gray">학년</td>
+                        <td>
+                            <select id="dropbox" name="grade" form="classSetting">
+                                <option selected>학년을 선택해주세요</option>
+                                <option value="1">1학년</option>
+                                <option value="2">2학년</option>
+                                <option value="3">3학년</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="gray">반</td>
+                        <td>
+                             <select id="dropbox" align="center" name="class" form="classSetting">
+                                    <option selected>반을 선택해주세요</option>
+                                    <option value="1">1반</option>
+                                    <option value="2">2반</option>
+                                    <option value="3">3반</option>
+                                    <option value="4">4반</option>
+                            </select>
+                        </td>
+                </tbody>
+            </table>
+            <input id="submit" type="submit" form="classSetting" value="학급생성">
+          </form>
+        </div>
+        <div id="blank"></div>
+    </div>
+</body>
+</html>
