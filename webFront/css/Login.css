@@ -8,6 +8,7 @@ html, body {
     height: 80px;
     background-color: white;
     border-bottom: solid #b3b3b3 2.5px;
+    min-width: 900px;
 }
 
 #login-nav {
