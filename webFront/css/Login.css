@@ -65,3 +65,16 @@ input{
     color: white;
     border: none;
 }
+.do{
+    height: 72px;
+    width: 500px;
+    position: absolute;
+    margin-top: 690px;
+    color: #9b9b9b;
+    text-align: center;
+}
+.mem{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #66a6ff;
+}
