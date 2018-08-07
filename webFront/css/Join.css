@@ -1,7 +1,44 @@
 html, body {
     margin: 0%;
 }
-
-#join-header {
-    font-family: "맑은고딕";
+.join {
+    vertical-align: middle;
+    text-align: center;
+}
+.container {
+    display: inline-block;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    border-bottom: 1.8px solid #bbbbbb;
+}
+.select {
+    width: 300px;
+    padding: 6px;
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: rgba(0,0,0,0.13);
+    border:none;
+}
+.first-table {
+    border-bottom: 1.8px solid #bbbbbb;
+    padding-bottom: 18px;
+    width:800px;
+}
+.signUpBtn {
+    width: 300px;
+    margin-top: 40px;
+    background-color: #66a6ff;
+    font: 20px "맑은 고딕";
+    color: white;
+    height: 50px;
+    border: none;
+    margin-left:250px;
 }

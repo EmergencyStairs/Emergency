@@ -1,0 +1,13 @@
+.main {
+    width: 300px;
+    margin: 0 auto;
+}
+.selectedBtn {
+    width: 300px;
+    margin-top: 40px;
+    background-color: #66a6ff;
+    font: 20px "맑은 고딕";
+    color: white;
+    height: 50px;
+    border: none;
+}

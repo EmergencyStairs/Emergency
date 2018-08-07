@@ -9,6 +9,10 @@ server.listen(3000, function() {
     console.log(__dirname);
 });
 
+app.get('/', function(req, res) {
+    res.sendFile(__dirname + '/static/index2.html');
+});
+
 var connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',

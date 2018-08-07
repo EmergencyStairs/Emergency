@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" text="text/css" href=".\css\Login.css" />
     <link rel="stylesheet" text="text/css" href=".\css\Join.css" />
+    <link rel="stylesheet" href="./css/header.css">
     <title>knock knock</title>
 </head>
+
 <body>
     <div class="head">
         <div>
             <nav id="login-nav">
-                <img id="login-logo" src="" alt="">
-                <span><a href="#">로그인</a></span>
-                <span><a href="#">회원가입</a></span>
-                <span><a href="#">학급생성</a></span>
+                <img id="login-logo" src="./asset/img/무제-4.png" alt="">
+                <span>
+                    <a href="#">로그인</a>
+                </span>
+                <span>
+                    <a href="#">회원가입</a>
+                </span>
             </nav>
         </div>
     </div>
     <div class="join">
-        <header>
-            <h3>회원가입</h3>
-        </header>
+        <div class="container">
+            <header>회원가입</header>
+            <h4>회원정보</h4>
+            <table class="first-table">
+                <tbody>
+                    <tr>
+                        <td width="200px">이름</td>
+                        <td>
+                            <select name="" id="" class="select">
+                                <option value="">이름을 선택해주세요.</option>
+                                <option value="">강</option>
+                                <option value="">박</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>담당과목</td>
+                        <td>
+                            <select name="" id="" class="select">
+                                <option value="">담당 과목을 선택하세요.</option>
+                                <option value="">강</option>
+                                <option value="">박</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>계정정보</h4>
+            <table>
+                <tbody>
+                    <tr>
+                        <td width="200px">아이디</td>
+                        <td>
+                            <input type="text" class="select" placeholder="아이디를 입력해주세요.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호</td>
+                        <td>
+                            <input type="text" class="select" placeholder="비밀번호를 입력해주세요.">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호 확인</td>
+                        <td>
+                            <input type="text" class="select" placeholder="비밀번호를 확인해주세요.">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="signUpBtn">회원가입</button>
+        </div>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>knock knock</title>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/checkBoard.css">
+</head>
+
+<body>
+    <div class="head">
+        <div>
+            <nav id="login-nav">
+                <img id="login-logo" src="./asset/img/무제-4.png" alt="">
+                <span>
+                    <a href="#">로그인</a>
+                </span>
+                <span>
+                    <a href="#">회원가입</a>
+                </span>
+            </nav>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="comment">
+            <h2>2018년 08월 07일</h2>
+            <h4>3학년 1반의 출석부입니다.</h4>
+        </div>
+        <button class="checkBtn">
+            지각비 사유
+        </button>
+        <table>
+            <tr class="greyRow">
+                <td>번호</td>
+                <td>이름</td>
+                <td>1교시</td>
+                <td>2교시</td>
+                <td>3교시</td>
+                <td>4교시</td>
+                <td>5교시</td>
+                <td>6교시</td>
+                <td>7교시</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="greyCol">선생님</td>
+                <td>고선경</td>
+                <td>좌찬익</td>
+                <td>양상인</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>고수민</td>
+                <td>
+                    <span class="circle"></span>
+                </td>
+                <td>
+                    <span class="circle circleGreen"></span>
+                </td>
+                <td>
+                    <span class="circle circleOrange"></span>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>김건</td>
+                <td>
+                    <span class="circle circle"></span>
+                </td>
+                <td>
+                    <span class="circle circleRed"></span>
+                </td>
+                <td>
+                    <span class="circle circleOrange"></span>
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+    <img src="./asset/img/ic_arrow_left.png" id="leftBtn" alt="">
+    <img src="./asset/img/ic_arrow_right.png" id="rightBtn" alt="">
+    <div id="dialogBackground">
+        <div id="dialog">
+            <img src="./asset/img/ic_close.png" alt="">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        setOnDialog = () => {
+            $("#dialogBackground").show();
+        }
+
+        setOffDialog = () => {
+            $("#dialogBackground").hide();
+        }
+    </script>
+</body>
+
+</html>
