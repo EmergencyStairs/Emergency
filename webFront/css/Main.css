@@ -1,0 +1,66 @@
+ .content {
+  width: 80%;
+  margin: 0 auto;
+}
+.main-book {
+  background-image: url('../mainbook.png');
+  width: 100%;
+  height: 430px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main-text{
+  float:right;
+  margin-top: 90px;
+  margin-right:150px;
+  text-align:left;
+  color: white;
+}
+
+.main-content > h2{
+  margin: 0;
+}
+
+.btn-group {
+  height: 52px;
+}
+.btn-group .button {
+  width: 25%;
+    background-color: #FFFFFF;
+    color: #646464;
+    border: none;
+    border-right: 2px solid #F5F5F5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group .button:hover {
+    background-color: #66A6FF;
+    color: white;
+}
+
+.main-footer{
+  background-color:#66A6FF;
+  width: 100%
+  height:100%
+}
+.contentimg{
+  margin-top: 20px;
+  width: 250px;
+}
+
+.main_ic{
+  width: 40px;
+}
+.main_creater{
+    float:right;
+    margin-right:50px;
+    width:35%;
+    margin-top: -11%;
+}
