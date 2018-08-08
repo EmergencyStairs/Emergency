@@ -31,8 +31,8 @@
             <h2>2018년 08월 07일</h2>
             <h4>3학년 1반의 출석부입니다.</h4>
         </div>
-        <button class="checkBtn">
-            지각비 사유
+        <button class="checkBtn" onclick="setOnDialog()">
+            지각 사유
         </button>
         <table>
             <tr class="greyRow">
@@ -94,19 +94,34 @@
     </div>
     <img src="./asset/img/ic_arrow_left.png" id="leftBtn" alt="">
     <img src="./asset/img/ic_arrow_right.png" id="rightBtn" alt="">
-    <div id="dialogBackground">
-        <div id="dialog">
-            <img src="./asset/img/ic_close.png" alt="">
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <img src="./asset/img/ic_close.png" id="modalCancelBtn" onclick="setOffDialog()">
+            <p id="modal-title">지각 사유 열람</p>
+            <p id="modal-subtitle">학생들이 보낸 지각 사유를 확인합니다.</p>
+            <p class="modal-comment">배가 너무 아파서 늦었습니다.</p>
+            <p>
+                <span class="modal-name">김동규</span>
+                <span class="modal-date">2018.08.08</span>
+            </p>
+            <p class="modal-comment">보건실 갔다가 늦었습니다.</p>
+            <p>
+                <span class="modal-name">오인서</span>
+                <span class="modal-date">2018.08.08</span>
+            </p>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script>
+
+        var modal = document.getElementById('dialogBackground')
         setOnDialog = () => {
-            $("#dialogBackground").show();
+            console.log("123")
+            $('#modal').show();
         }
 
         setOffDialog = () => {
-            $("#dialogBackground").hide();
+            $('#modal').hide();
         }
     </script>
 </body>
